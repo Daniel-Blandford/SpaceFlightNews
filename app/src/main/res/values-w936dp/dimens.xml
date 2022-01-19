@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="item_people_image_length">160dp</dimen>
+    <dimen name="item_room_image_length">160dp</dimen>
+</resources>

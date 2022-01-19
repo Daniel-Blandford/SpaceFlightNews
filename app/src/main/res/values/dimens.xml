@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="fragment_horizontal_margin">16dp</dimen>
+    <dimen name="item_people_image_length">64dp</dimen>
+    <dimen name="item_room_image_length">64dp</dimen>
+    <dimen name="room_text_block_max_percent">1</dimen>
+    <dimen name="room_text_block_horizontal_gap">8dp</dimen>
+    <dimen name="room_text_title_size">22sp</dimen>
+    <dimen name="room_text_description_size">13sp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_corner_radius">26dp</dimen>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_baseline_menu_book_24.xml" value="0.3411458333333333" />
+        <entry key="app/src/main/res/drawable/ic_gallery_black_24dp.xml" value="0.5619791666666667" />
+        <entry key="app/src/main/res/drawable/ic_meeting_room_empty_black_24dp.xml" value="0.3411458333333333" />
+        <entry key="app/src/main/res/drawable/ic_meeting_room_full_black_24dp.xml" value="0.3411458333333333" />
+        <entry key="app/src/main/res/drawable/ic_room_empty.xml" value="0.3411458333333333" />
+        <entry key="app/src/main/res/drawable/ic_room_full.xml" value="0.3411458333333333" />
+        <entry key="app/src/main/res/drawable/ic_settings_black_24dp.xml" value="0.3411458333333333" />
+        <entry key="app/src/main/res/drawable/ic_slideshow_black_24dp.xml" value="0.5619791666666667" />
+        <entry key="app/src/main/res/drawable/side_nav_bar.xml" value="0.3411458333333333" />
+        <entry key="app/src/main/res/layout-w1240dp/content_main.xml" value="0.2" />
+        <entry key="app/src/main/res/layout-w600dp/activity_main.xml" value="0.3620309050772627" />
+        <entry key="app/src/main/res/layout-w600dp/app_bar_main.xml" value="0.9441441441441442" />
+        <entry key="app/src/main/res/layout-w600dp/content_main.xml" value="0.2128335451080051" />
+        <entry key="app/src/main/res/layout-w600dp/fragment_office.xml" value="0.365625" />
+        <entry key="app/src/main/res/layout-w600dp/fragment_people.xml" value="0.3494791666666667" />
+        <entry key="app/src/main/res/layout-w600dp/fragment_transform.xml" value="0.9441441441441442" />
+        <entry key="app/src/main/res/layout-w600dp/item_office.xml" value="0.528125" />
+        <entry key="app/src/main/res/layout-w600dp/item_people.xml" value="0.25" />
+        <entry key="app/src/main/res/layout-w600dp/item_room.xml" value="0.43649946638207043" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.5374358974358975" />
+        <entry key="app/src/main/res/layout/fragment_office.xml" value="0.325" />
+        <entry key="app/src/main/res/layout/fragment_people.xml" value="0.2361111111111111" />
+        <entry key="app/src/main/res/layout/fragment_room.xml" value="0.3255208333333333" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.325" />
+        <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.325" />
+        <entry key="app/src/main/res/layout/fragment_transform.xml" value="0.5458333333333333" />
+        <entry key="app/src/main/res/layout/item_office.xml" value="0.325" />
+        <entry key="app/src/main/res/layout/item_people.xml" value="0.3187214611872146" />
+        <entry key="app/src/main/res/layout/item_room.xml" value="0.21671826625386997" />
+        <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.325" />
+        <entry key="app/src/main/res/menu/bottom_navigation.xml" value="0.325" />
+        <entry key="app/src/main/res/menu/navigation_drawer.xml" value="0.5458333333333333" />
+        <entry key="app/src/main/res/menu/overflow.xml" value="0.325" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3411458333333333" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3411458333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

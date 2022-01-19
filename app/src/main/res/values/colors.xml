@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#FFFFFFFF</color>
+
+    <!-- Primary brand color. -->
+    <color name="colorPrimary">#FFC40202</color>
+    <color name="colorPrimaryVariant">#FFA20000</color>
+    <color name="colorOnPrimary">#FFFFFFFF</color>
+
+    <!-- Secondary brand color. -->
+    <color name="colorSecondary">#FFC40202</color>
+    <color name="colorSecondaryVariant">#FFA20000</color>
+    <color name="colorOnSecondary">#FF000000</color>
+
+    <color name="colorNavHeaderText">#FFFFFF</color>
+</resources>
