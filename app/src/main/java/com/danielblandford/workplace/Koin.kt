@@ -1,7 +1,7 @@
 package com.danielblandford.workplace
 
 import android.app.Application
-import com.danielblandford.workplace.modules.viewModelModule
+import com.danielblandford.workplace.modules.*
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin
@@ -16,7 +16,7 @@ class Koin : Application() {
         startKoin {
             androidContext(this@Koin)
             androidLogger(Level.NONE)
-            modules(listOf(viewModelModule))
+            modules(listOf(viewModelModule, networkModule, peopleRepoModule, roomsRepoModule, apiModule, databaseModule))
         }
     }
 }

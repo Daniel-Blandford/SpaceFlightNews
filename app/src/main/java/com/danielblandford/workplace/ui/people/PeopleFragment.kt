@@ -12,6 +12,8 @@ import com.danielblandford.workplace.databinding.FragmentPeopleBinding
 import com.danielblandford.workplace.databinding.ItemPeopleBinding
 import androidx.cardview.widget.CardView
 import androidx.constraintlayout.widget.ConstraintLayout
+import com.danielblandford.workplace.utils.LoadingState
+import com.google.android.material.snackbar.Snackbar
 import org.koin.android.viewmodel.ext.android.viewModel
 
 class PeopleFragment : Fragment() {
@@ -34,13 +36,37 @@ class PeopleFragment : Fragment() {
         val adapter = PeopleAdapter()
         recyclerView.adapter = adapter
 
-        //People observer
-        viewModel.peopleResponseList.observe(viewLifecycleOwner, {
-            adapter.submitList(it)
-        })
+        createObservers(adapter)
+
         viewModel.getPeople()
 
         return root
+    }
+
+    private fun createObservers(adapter: PeopleAdapter) {
+        //People observer
+        viewModel.peopleResults.observe(viewLifecycleOwner, {
+            adapter.submitList(it)
+        })
+
+        //Load state observer
+        viewModel.loadingState.observe(viewLifecycleOwner, {
+            when (it.status) {
+                LoadingState.Status.FAILED -> {
+                    view?.let { it2 ->
+                        Snackbar.make(
+                            it2,
+                            "Error in loading data...check connection",
+                            Snackbar.LENGTH_LONG
+                        ).show()
+                    }
+                }
+                LoadingState.Status.RUNNING -> {
+                }
+                LoadingState.Status.SUCCESS -> {
+                }
+            }
+        })
     }
 
     override fun onDestroyView() {
