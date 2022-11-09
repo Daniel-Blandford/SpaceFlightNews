@@ -1,19 +1,11 @@
 <resources>
-    <string name="app_name">Staff Directory</string>
+    <string name="app_name">Space Flight News</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">The Red Pages</string>
-    <string name="nav_header_subtitle">(Not affiliated with the Yellow Pages)</string>
+
+    <string name="nav_header_title">Space Flight News</string>
+    <string name="nav_header_subtitle">Always a way to speed up the day</string>
     <string name="nav_header_desc">Navigation header</string>
 
-    <string name="menu_people">People</string>
-    <string name="menu_room">Rooms</string>
-
-    <string name="max_occupancy">Max occupancy: %d</string>
-
-    <string name="full_name">%1s %2s</string>
-    <string name="email">Email: %s</string>
-    <string name="phone">Phone: %s</string>
-    <string name="location">Country: %s</string>
-    <string name="unknown">Unknown</string>
+    <string name="menu_articles">Articles</string>
 </resources>

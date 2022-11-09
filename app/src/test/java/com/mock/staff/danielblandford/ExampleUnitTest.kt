@@ -1,4 +1,4 @@
-package com.danielblandford.workplace
+package com.danielblandford.spaceflightnews
 
 import org.junit.Test
 

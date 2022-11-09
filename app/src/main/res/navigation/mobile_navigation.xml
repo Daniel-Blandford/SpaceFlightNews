@@ -3,17 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_people">
+    app:startDestination="@+id/nav_articles">
 
     <fragment
-        android:id="@+id/nav_people"
-        android:name="com.danielblandford.workplace.ui.people.PeopleFragment"
-        android:label="@string/menu_people"
-        tools:layout="@layout/fragment_people" />
-
-    <fragment
-        android:id="@+id/nav_room"
-        android:name="com.danielblandford.workplace.ui.rooms.RoomsFragment"
-        android:label="@string/menu_room"
-        tools:layout="@layout/fragment_room" />
+        android:id="@+id/nav_articles"
+        android:name="com.danielblandford.spaceflightnews.ui.articles.ArticlesFragment"
+        android:label="@string/menu_articles"
+        tools:layout="@layout/fragment_articles" />
 </navigation>

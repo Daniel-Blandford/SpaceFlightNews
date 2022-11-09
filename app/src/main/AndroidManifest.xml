@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.danielblandford.workplace">
+    xmlns:tools="http://schemas.android.com/tools">
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET"/>
     <application
@@ -11,13 +10,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:name=".Koin"
-        android:theme="@style/Theme.StaffDirectory">
+        android:theme="@style/Theme.SpaceFlightNews"
+        >
         <activity
-            android:name="com.danielblandford.workplace.MainActivity"
+            android:name="com.danielblandford.spaceflightnews.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:resizeableActivity="true"
-            android:theme="@style/Theme.StaffDirectory.NoActionBar"
+            android:theme="@style/Theme.SpaceFlightNews.NoActionBar"
             tools:targetApi="24">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
