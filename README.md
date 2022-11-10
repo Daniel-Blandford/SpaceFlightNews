@@ -1,1 +1,1 @@
-A Simple Android application with the latest 'Space Flight News' headlines.
+A simple Android application with the latest 'Space Flight News' headlines.
