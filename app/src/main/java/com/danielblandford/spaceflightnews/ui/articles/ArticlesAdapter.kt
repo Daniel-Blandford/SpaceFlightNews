@@ -30,7 +30,7 @@ class ArticlesAdapter :
     @OptIn(DelicateCoroutinesApi::class)
     override fun onBindViewHolder(holder: ArticlesFragment.ArticlesViewHolder, article: Int) {
         //Download avatar and change its shape from square to circle
-        UrlBitmap.urlToBitmapCircle(getItem(article).imageUrl, holder.articleIV)
+        getItem(article).imageUrl?.let { UrlBitmap.urlToBitmapCircle(it, holder.articleIV) }
 
         holder.titleTV.text = getItem(article).title
         holder.newsSiteTV.text = getItem(article).newsSite

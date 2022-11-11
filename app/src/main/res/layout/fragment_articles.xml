@@ -5,6 +5,7 @@
     android:id="@+id/recyclerview_articles"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingVertical="16dp"
     android:clipToPadding="false"
     app:layoutManager="LinearLayoutManager"
     tools:context=".ui.articles.ArticlesFragment"/>

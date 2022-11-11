@@ -14,7 +14,7 @@ interface ArticleDao {
     fun insertAll(articles: List<Article>)
 
 }
-@Database(entities=[Article::class], version=1)
+@Database(entities=[Article::class], version=2)
 @TypeConverters(DatabaseTypeConverter::class)
 abstract class ArticlesDatabase: RoomDatabase(){
     abstract val articles: ArticleDao
