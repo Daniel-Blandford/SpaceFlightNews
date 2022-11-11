@@ -13,6 +13,7 @@ The application is built on the MVVM Architecture that implements clean architec
 Jetpack Compose, Retrofit, OkHttp, Koin, Coroutines, Espresso.
 
 ### Project Structure
+//Pending
 
 ### Testing
 Espresso testing user input events.
