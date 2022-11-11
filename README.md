@@ -15,5 +15,6 @@ Jetpack Compose, Retrofit, OkHttp, Koin, Coroutines, Espresso.
 ### Testing
 Espresso testing user input events.
 
-### ScreenShots
-//Pending
+### ScreenShot
+![image](https://user-images.githubusercontent.com/84602475/201358574-0a73b320-fd76-4973-9dc5-214439018d90.png)
+
